@@ -106,8 +106,17 @@ footer a:hover {
     color: orange;
 }
 
-.blog-post p {
-    color: #cccccc;
+.blog-summary {
+    cursor: pointer;
+}
+
+.blog-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.blog-post.active .blog-content {
+    display: block;
 }
 
 /* Falling stars animation */
